@@ -886,8 +886,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        &:hover>i{
-          transform: rotate(360deg);
+        >a{
+          &:hover>i{
+            transform: rotate(360deg);
+          }
         }
         >i{
           transition: 0.3s ease;
