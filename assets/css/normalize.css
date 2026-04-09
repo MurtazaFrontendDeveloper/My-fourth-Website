@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: var(--white);
+}
+
+
+:root {
+  --white: #fff;
+  --light-white:#EFEFEF;
+  --black: #000;
+  --light-black:rgba(0, 0, 0, 0.158); 
+  --lighty-black:rgba(0, 0, 0, 0.411); 
+  --green: #96bb7c;
+  --gray:#6C757D;
+  --Primary-font:"Nunito", sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,a,span,figure{
+  font-family: var(--Primary-font);
+}
+
+
+html{
+  ::selection{
+    background-color: var(--black);
+    color: var(--white);
+  }
+}
